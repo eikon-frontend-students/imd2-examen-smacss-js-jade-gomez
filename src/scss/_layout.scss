@@ -1,9 +1,12 @@
 .l-title-background {
-  background: var(--dark-blue, #005564);
+  background-color: var(--dark-blue, #005564);
   display: flex;
   height: 120px;
   padding: 0px 52px 0px 53px;
   justify-content: center;
+}
+.l-title-is-active {
+  background-color: #fce757;
 }
 .l-main-background {
   padding: 60px 0;

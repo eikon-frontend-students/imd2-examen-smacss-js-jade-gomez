@@ -5,10 +5,21 @@
   flex-direction: column;
   align-items: center;
   gap: 20px;
-  background: var(--green, #a0d187);
+  background-color: var(--green, #a0d187);
+  transition: all 0.2s;
+}
+
+.product-onion-is-active {
+  background-color: var(--red, #cf9697);
+}
+.product-classic-is-active {
+  background-color: #c0d9d9;
 }
 .product-description {
   text-align: center;
   font-family: "Nunito Sans";
   font-size: 18px;
+}
+.product-informations {
+  display: none;
 }
